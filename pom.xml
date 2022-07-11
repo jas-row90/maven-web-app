@@ -12,7 +12,7 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Landmark Technologies</name>
+		<name>Jas-Row90</name>
 		<url>http://landmarktechnologies.com/</url>
 	</organization>
 
@@ -21,15 +21,15 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http:3.238.135.186:9000/</sonar.host.url>
+		<sonar.host.url>http://52.39.249.88:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		
-  <sonar.organization>mylandmarktechs</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.organization>jas-row90</sonar.organization>
+  <sonar.host.url>http://52.39.249.88:9000/</sonar.host.url>
 	</properties>
 
 	<dependencies>
@@ -100,19 +100,19 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://44.192.81.238:8888/mylandmarktech/repository/boa-release/</url>
+	      <url>http://35.88.83.136:8081/repository/Tesla_Releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://44.192.81.238:8888/mylandmarktech/repository/boa-snapshot/</url>
+	      <url>http://35.88.83.136:8081/repository/Tesla_snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-app</finalName>
+		<finalName>Tesla-web-app</finalName>
 		
 		<plugins>
 			<plugin>
