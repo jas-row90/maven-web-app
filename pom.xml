@@ -28,8 +28,8 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		
-  <sonar.organization>jas-row90</sonar.organization>
-  <sonar.host.url>http://534.212.118.24:9000/</sonar.host.url>
+  <sonar.organization>mylandmarktech</sonar.organization>
+  <sonar.host.url>http://34.212.118.24:9000/</sonar.host.url>
 	</properties>
 
 	<dependencies>
